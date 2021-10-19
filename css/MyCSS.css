@@ -1,19 +1,24 @@
 
 body{
-    background-color: rgb(128, 109, 109);
+    background-color: rgb(255, 255, 255);
     font-family: cursive;
 }
 
 h1{
     text-align: center;
+    display: block;
 }
 
 img{width: 40px;}
+
+.Navi{
+  background-color: rgb(128, 1, 1);
+}
 /* Used to style logo on top left */
 .Logo{
     float:left; 
     padding: 1%;
-    background-color: rgb(0, 0, 0)
+    background-color: rgb(128, 1, 1)
     
 }
 /* Used for styling of title of site */
@@ -21,7 +26,7 @@ img{width: 40px;}
     float:left;
     padding: 1%;
     border-style:none;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(128, 1, 1);
     color:white;
     height:28px;
 
@@ -30,13 +35,15 @@ img{width: 40px;}
 
 /* Dropdown Button Twitter*/
 .dropbtn {
-    background-color: #000000;
+    background-color: rgb(128, 1, 1);
     border-style: solid;
-    border-color: white;
-    color: white;
+    border-color: rgb(20, 15, 68);
+    color: rgb(255, 255, 255);
     padding: 16px;
     font-size: 16px;
+    border-width: 5px;
   }
+
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
@@ -73,12 +80,13 @@ img{width: 40px;}
 
   /* Dropdown Button Instagram*/
 .dropbtn2 {
-    background-color: #000000;
-    border-style: solid;
-    border-color: white;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+   background-color: rgb(128, 1, 1);
+   border-style: solid;
+   border-color: rgb(20, 15, 68);
+   border-width: 5px;
+   color: rgb(255, 255, 255);
+   padding: 16px;
+   font-size: 16px;
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -122,7 +130,7 @@ img{width: 40px;}
     border-style: solid;
     border-color: white;
     color: white;
-    background-color: black;
+    background-color: rgb(20, 15, 68);
     top:0;
     right:25px;
     font-size:20px;
@@ -130,8 +138,16 @@ img{width: 40px;}
   }
 
   .sidenav a{
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       padding: 8px 8px 8px 32px;
-      display: block;
+      display: inline;
       float: left;
+  }
+
+  .containerside{
+    background-color:rgb(20, 15, 68) !important;
+    width:120px;
+    height:600px;
+    border-style: solid;
+    border-color: black;
   }
