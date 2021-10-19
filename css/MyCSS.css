@@ -8,7 +8,7 @@ h1{
     text-align: center;
 }
 
-img{width: 60px;}
+img{width: 40px;}
 /* Used to style logo on top left */
 .Logo{
     float:left; 
@@ -23,6 +23,7 @@ img{width: 60px;}
     border-style:none;
     background-color: rgb(0, 0, 0);
     color:white;
+    height:28px;
 
 }
 
@@ -132,4 +133,5 @@ img{width: 60px;}
       color: rgb(0, 0, 0);
       padding: 8px 8px 8px 32px;
       display: block;
+      float: left;
   }
