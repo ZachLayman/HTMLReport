@@ -1,0 +1,135 @@
+
+body{
+    background-color: rgb(128, 109, 109);
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+}
+
+img{width: 60px;}
+/* Used to style logo on top left */
+.Logo{
+    float:left; 
+    padding: 1%;
+    background-color: rgb(0, 0, 0)
+    
+}
+/* Used for styling of title of site */
+.Name{
+    float:left;
+    padding: 1%;
+    border-style:none;
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+}
+
+
+/* Dropdown Button Twitter*/
+.dropbtn {
+    background-color: #000000;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #474747;}
+
+  /* Dropdown Button Instagram*/
+.dropbtn2 {
+    background-color: #000000;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content2 a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown2:hover .dropdown-content2 {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown2:hover .dropbtn2 {background-color: #474747;}
+
+  /* Side Nav Bar*/
+
+  .sidenav{
+    height:100%;
+    width:0%;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    background-color: black;
+    top:0;
+    right:25px;
+    font-size:20px;
+    float: left;
+  }
+
+  .sidenav a{
+      color: rgb(0, 0, 0);
+      padding: 8px 8px 8px 32px;
+      display: block;
+  }
