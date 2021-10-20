@@ -1,19 +1,17 @@
 
 body{
-    background-color: rgb(255, 255, 255);
-    font-family: cursive;
-}
-
-h1{
-    text-align: center;
-    display: block;
+    background-color: rgb(240, 240, 240);
+    font-family: serif;
 }
 
 img{width: 40px;}
 
+/*Used to style top navigation bar*/
 .Navi{
   background-color: rgb(128, 1, 1);
+  bottom: 10px;
 }
+
 /* Used to style logo on top left */
 .Logo{
     float:left; 
@@ -123,7 +121,6 @@ img{width: 40px;}
   .dropdown2:hover .dropbtn2 {background-color: #474747;}
 
   /* Side Nav Bar*/
-
   .sidenav{
     height:100%;
     width:0%;
@@ -140,14 +137,26 @@ img{width: 40px;}
   .sidenav a{
       color: rgb(255, 255, 255);
       padding: 8px 8px 8px 32px;
-      display: inline;
       float: left;
   }
 
+  /*Used to style side container, used to move up and down*/
+
   .containerside{
-    background-color:rgb(20, 15, 68) !important;
+    background-color:rgb(20, 15, 68);
     width:120px;
-    height:600px;
+    height:900px;
     border-style: solid;
     border-color: black;
+    position: relative;
+    bottom: 115px;
   }
+
+  .sidenav a:hover {background-color: #ddd;}
+
+/* Content on the home page */
+  .contenthome{
+    top: 35px;
+    text-align: center;
+    position: relative;
+}
