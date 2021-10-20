@@ -31,6 +31,8 @@ img{width: 40px;}
 }
 
 
+/*DROPDOWN MENU*//*DROPDOWN MENU*//*DROPDOWN MENU*//*DROPDOWN MENU*//*DROPDOWN MENU*//*DROPDOWN MENU*//*DROPDOWN MENU*/
+
 /* Dropdown Button Twitter*/
 .dropbtn {
     background-color: rgb(128, 1, 1);
@@ -257,7 +259,7 @@ img{width: 40px;}
  /* Change the background color of the dropdown button when the dropdown content is shown */
  .dropdown5:hover .dropbtn5 {background-color: #474747;}
 
-  /* Side Nav Bar*/
+  /* Side Nav Bar*//* Side Nav Bar*//* Side Nav Bar*//* Side Nav Bar*//* Side Nav Bar*//* Side Nav Bar*//* Side Nav Bar*//* Side Nav Bar*/
   .sidenav{
     height:100%;
     width:0%;
@@ -300,10 +302,6 @@ img{width: 40px;}
 
 /* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM */
 
-
-
-
-/*SIGN UP PAGE*//*SIGN UP PAGE*//*SIGN UP PAGE*//*SIGN UP PAGE*//*SIGN UP PAGE*//*SIGN UP PAGE*//*SIGN UP PAGE*/
 
 
 /* Bordered form */
@@ -379,6 +377,7 @@ span.psw {
   }
 }
 
+/*SIGN UP PAGE*//*SIGN UP PAGE*//*SIGN UP PAGE*//*SIGN UP PAGE*//*SIGN UP PAGE*//*SIGN UP PAGE*//*SIGN UP PAGE*/
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
