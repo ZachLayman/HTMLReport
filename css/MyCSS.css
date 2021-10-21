@@ -283,22 +283,33 @@ img{width: 40px;}
   .containerside{
     background-color:rgb(20, 15, 68);
     width:120px;
-    height:900px;
+    height: 805px;
     border-style: solid;
     border-color: black;
-    position: relative;
-    bottom: 115px;
+    position: absolute;
+    bottom: 0px;
   }
 
   .sidenav a:hover {background-color: #ddd;}
 
+  /*Content*//*Content*//*Content*//*Content*//*Content*//*Content*//*Content*//*Content*//*Content*/
+
 /* Content on the home page */
   .contenthome{
-    top: 35px;
     text-align: center;
     position: relative;
     color: white;
-}
+    overflow:hidden;
+  }
+  /*Pargraph home page*/
+ .contentp{
+  left:300px;
+  text-align: center;
+  position: relative;
+  color: white;
+  overflow:hidden;
+  padding-right: 585px;
+ }
 
 /* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM */
 
