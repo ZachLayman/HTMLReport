@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(129, 15, 15);
+    background-color: rgb(150, 25, 25);
     font-family: serif;
 }
 
@@ -310,6 +310,119 @@ img{width: 40px;}
   overflow:hidden;
   padding-right: 585px;
  }
+/*HEADING CNN AND FOX*//*HEADING CNN AND FOX*//*HEADING CNN AND FOX*//*HEADING CNN AND FOX*//*HEADING CNN AND FOX*/
+ .Headings{
+  right:300px !important;
+  color:white;
+  position: relative;
+  clear: both;
+  top:60px;
+  font-size: 20px;
+ }
+
+ .Headings2{
+  left:270px !important;
+  color:white;
+  position: relative;
+  top:5px;
+  font-size: 20px;
+ }
+
+ .HeadingsBLM{
+  right:300px !important;
+  color:white;
+  position: relative;
+  clear: both;
+  top:70px;
+  font-size: 20px;
+ }
+
+ .HeadingsBLM2{
+  left:270px !important;
+  color:white;
+  position: relative;
+  clear: both;
+  font-size: 20px;
+  top:20px;
+ }
+
+ .CNN_Para{
+  border-style: solid;
+  border-width: 20px;
+  padding: 30px;
+  border-color: navy;
+  background-color: white;
+  color:rgb(0, 0, 0);
+  position: relative;
+  max-width: 400px;
+  left:200px;
+
+ }
+
+ .FOX_Para{
+  border-style: solid;
+  border-width: 20px;
+  padding: 30px;
+  border-color: navy;
+  background-color: white;
+  color:rgb(0, 0, 0);
+  position: relative;
+  max-width: 400px;
+  left:750px;
+  bottom:350px;
+
+ }
+
+ .FOX_ParaBLM{
+  border-style: solid;
+  border-width: 20px;
+  padding: 30px;
+  border-color: navy;
+  background-color: white;
+  color:rgb(0, 0, 0);
+  position: relative;
+  max-width: 400px;
+  left: 790px;
+  bottom:350px;
+  
+ }
+
+ .CNN_ParaBLM{
+  border-style: solid;
+  border-width: 20px;
+  padding: 30px;
+  border-color: navy;
+  background-color: white;
+  color:rgb(0, 0, 0);
+  position: relative;
+  max-width: 400px;
+  left:200px;
+  }
+
+  .FOX_ParaBill{
+  border-style: solid;
+  border-width: 20px;
+  padding: 30px;
+  border-color: navy;
+  background-color: white;
+  color:rgb(0, 0, 0);
+  position: relative;
+  max-width: 400px;
+  bottom:400px;
+  left: 770px;
+  }
+
+  .CNN_ParaBill{border-style: solid;
+    border-width: 20px;
+    padding: 30px;
+    border-color: navy;
+    background-color: white;
+    color:rgb(0, 0, 0);
+    position: relative;
+    max-width: 400px;
+    top: 10px;
+    left: 190px;}
+ 
 
 /* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM *//* LOGIN FORM */
 
