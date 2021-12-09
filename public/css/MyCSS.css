@@ -270,6 +270,7 @@ img{width: 40px;}
     right:25px;
     font-size:20px;
     float: left;
+    
   }
 
   .sidenav a{
@@ -586,8 +587,8 @@ input[type=text]:invalid {
   width: 50%;
   display: flex;
   flex-direction: column;
-  margin-left: 25%;
-  margin-top: 50px; 
+  margin-left: 25%; 
+  margin-bottom: 800px;
 }
 
 #comment{
