@@ -573,23 +573,20 @@ button:hover {
 
 
 /* Comment section */
-
 .reply {
-  width: 70px;
-  margin-left: 100px;
-  
+  margin-left: 650px;
+  width:60px;
 }
 input[type=text]:invalid {
   border: red solid 1px;
 }
 
-.containerComment {
+.container {
   width: 50%;
   display: flex;
   flex-direction: column;
-  margin-left: 25%; 
-  margin-bottom: 800px;
-  margin-top: 0px;
+  margin-left: 25%;
+  margin-top: 50px; 
 }
 
 #comment{
@@ -611,5 +608,4 @@ input[type=text]:invalid {
 }
 .wrapper {
   text-align: center;
- }
-
+}

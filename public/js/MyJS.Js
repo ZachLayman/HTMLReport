@@ -71,7 +71,3 @@ document.getElementById("allComments").addEventListener("click", function (e) {
     e.target.parentElement.remove();
   }
 });
-
-
-
-
